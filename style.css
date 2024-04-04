@@ -1,0 +1,94 @@
+.topnav{
+    display: flex;
+    gap: 5%;
+    margin-left: 20%;
+}
+#comntainer1{
+    display: flex;
+    padding-left: 10%;
+    gap: 5%;
+    margin-left: 20%;
+
+}
+.title{
+    display: flex;
+    gap: 5%;
+    margin-left: 20%;
+}
+#nic{
+    margin-left: 32%;
+}
+#serve{
+  display: flex; 
+  margin-left: 20%;
+  gap: 25%; 
+}
+.medical{
+    display: flex;
+    gap: 5%;
+    margin-left: 20%;
+}
+#opinion{
+    margin-left: 20%;
+}
+.container5{
+    display: flex;
+    padding-left: 10%;
+    gap: 5%;
+    margin-left: 20%;
+}
+.patients{
+    display: flex;
+    gap: 15%;
+    margin-left: 20%;
+}
+#vet{
+    text-align: center;
+}
+
+.Veterinarians{
+    display: flex;
+    margin-left: 20%;
+    gap: 15%;
+}
+#blog{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    gap: 15%;
+    margin-left: 10%;
+
+}@media screen and (min-width:375px) and (max-width: 768px) {
+    .topnav{
+        flex-direction: column;
+    }
+        .patients{
+            flex-direction: column;
+        
+        }
+        .Veterinarians{
+            flex-direction: column;
+    }
+    #comntainer1{
+        flex-direction: column;
+}
+.footer{
+    flex-direction: column;
+}
+.medical{
+    flex-direction: column;
+}
+.title{
+    flex-direction: column;
+}
+.container5{
+flex-direction: column;
+}
+}
+
+
+
+
+
+
